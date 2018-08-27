@@ -1,8 +1,8 @@
-function Count(params, month) {
+function Count(params, day) {
   for (let i = 1; i <= params; i++) {
     console.log(i);
   }
-  console.log(month + '!');
+  console.log(day + '!');
 }
 
-Count(3);
+Count(3, 21);
