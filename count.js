@@ -1,8 +1,5 @@
-function Count(params, day) {
-  for (let i = 1; i <= params; i++) {
-    console.log(i);
-  }
-  console.log(day + '!');
+function Count(params) {
+  console.log('Counting the countless ' + params);
 }
 
 Count(3, 21);
