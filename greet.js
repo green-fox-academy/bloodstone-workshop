@@ -1,3 +1,3 @@
-const greet = () => {
-  console.log('Claire Duan');
+const greet = (str) => {
+  console.log(str);
 }
