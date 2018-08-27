@@ -1,8 +1,7 @@
 function Count(params) {
-  if (params > 0) {
-    console.log(params);
-    params --;
+  for (let i = 1; i <= params; i++) {
+    console.log(i);
   }
 }
 
-export default Count;
+Count(3);
