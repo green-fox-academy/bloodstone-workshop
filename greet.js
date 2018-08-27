@@ -1,3 +1,3 @@
-const greet = (str) => {
-  console.log(str);
+const greet = () => {
+  console.log('Greetings!');
 }
