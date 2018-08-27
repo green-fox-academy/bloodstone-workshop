@@ -1,4 +1,4 @@
-function cheer () {
-  console.log('bloodstone-workshop');
+function cheer (input) {
+  console.log('bloodstone-workshop' + input);
   
 }
