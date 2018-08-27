@@ -1,6 +1,5 @@
 function Count(params) {
   console.log('Counting the countless ' + params);
-  
 }
 
-Count(3);
+Count(3, 21);
