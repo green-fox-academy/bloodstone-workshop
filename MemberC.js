@@ -1,5 +1,5 @@
-function cheer(input1, input2) {
-  console.log('bloodstone-workshop' + ' ' + input1 + input2 + '!');
+function cheer(input) {
+  console.log(`Cheer for ${input}`);
 }
 
 cheer('JavaScript');
